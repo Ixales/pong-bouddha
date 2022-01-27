@@ -10,7 +10,7 @@ class Tableau1 extends Phaser.Scene{
         this.load.image('R2','assets/r2.png');
         this.load.image('fond','assets/fond3.jpg');
         for(let j=1;j<=49;j++) {
-            //this.load.image('backg' + j, 'assets/fond/frame-' + j + '.jpg');
+            this.load.image('backg' + j, 'assets/fond/frame-' + j + '.gif');
         }
     }
 
@@ -23,7 +23,7 @@ class Tableau1 extends Phaser.Scene{
     }
 
     create(){
-        this.foond =this.add.image(500,250,'fond');
+        this.foond =this.add.image(500,250,'backg');
         this.foond.setDisplaySize(1000,550)
 
         this.foond = this.add.sprite(500, 250, 'backg').setOrigin(0,0);
