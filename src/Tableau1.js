@@ -23,7 +23,7 @@ class Tableau1 extends Phaser.Scene{
     }
 
     create(){
-        this.foond =this.add.image(500,250,'backg');
+        this.foond =this.add.image(500,250,'fond');
         this.foond.setDisplaySize(1000,550)
 
         //this.foond = this.add.sprite(500, 250, 'backg').setOrigin(0,0);
