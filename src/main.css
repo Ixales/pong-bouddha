@@ -2,7 +2,11 @@ body{
     font-family: Arial, sans-serif;
     font-size: 12px;
     background-color: #000000;
+    background-image: url(https://legalnoodle.com/wp-content/uploads/2017/11/Throat-Chakra.gif);
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    overflow: hidden;
 }
 a{
     color: #808080;
@@ -30,8 +34,8 @@ canvas{
 }
 
 #scores{
-    color: #ffffff;
-    font-size : 5vw;
+    color: #7D00FF;
+    font-size : 3vw;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -43,9 +47,10 @@ canvas{
     color:#0f0
 }
 .name{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 #scores >* {
     margin: 1vw;
 }
+

@@ -1,4 +1,3 @@
-
 class Tableau1 extends Phaser.Scene{
 
 
@@ -27,7 +26,7 @@ class Tableau1 extends Phaser.Scene{
         this.foond =this.add.image(500,250,'backg');
         this.foond.setDisplaySize(1000,550)
 
-        this.foond = this.add.sprite(500, 250, 'backg').setOrigin(0,0);
+        //this.foond = this.add.sprite(500, 250, 'backg').setOrigin(0,0);
         this.anims.create({
             key: 'backg',
             frames: this.getFrames('backg',49),
@@ -179,7 +178,5 @@ class Tableau1 extends Phaser.Scene{
         });
     }
 }
-
-
 
 
